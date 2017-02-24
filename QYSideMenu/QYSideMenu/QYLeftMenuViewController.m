@@ -7,31 +7,61 @@
 //
 
 #import "QYLeftMenuViewController.h"
+#import "QYDemo1NavigationController.h"
+#import "QYMenuViewControllerManager.h"
 
-@interface QYLeftMenuViewController ()
+@interface QYLeftMenuViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView    *tableView;
+@property (nonatomic, strong) NSArray               *moduleArray;
 
 @end
 
 @implementation QYLeftMenuViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupUI
+{
+    self.tableView.tableFooterView = [[UIView alloc] init];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.moduleArray.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+    cell.textLabel.text = self.moduleArray[indexPath.row];
+    cell.backgroundColor = [UIColor clearColor];
+    cell.textLabel.textColor = [UIColor whiteColor];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [[QYMenuViewControllerManager shareManager] hideMenuWithAnimation:YES];
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.title = self.moduleArray[indexPath.row];
+    vc.view.backgroundColor = [UIColor yellowColor];
+    [[QYDemo1NavigationController shareInstance] pushViewController:vc animated:NO];
+}
+
+- (NSArray *)moduleArray
+{
+    if (_moduleArray == nil) {
+        _moduleArray = @[@"个人信息",
+                         @"我的相册",
+                         @"设置"];
+    }
+    return _moduleArray;
+}
 
 @end

@@ -87,7 +87,7 @@ static QYMenuViewControllerManager *__manager;
     self.menuWidth = self.menuWidth == 0 ? D_ScreenWidth * 0.8 : self.menuWidth;
     self.effectiveDragWidth = self.effectiveDragWidth == 0 ? 80 : self.effectiveDragWidth;
     self.transparentView = [[UIView alloc] initWithFrame:self.centerViewController.view.bounds];
-    self.transparentView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.9];
+    self.transparentView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
 }
 
 #pragma mark - recoginzer

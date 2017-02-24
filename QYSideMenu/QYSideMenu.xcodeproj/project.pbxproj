@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C92DBA11E544FBF00B40FCE /* QYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92DBA01E544FBF00B40FCE /* QYMessageViewController.m */; };
-		4C92DBA41E54500800B40FCE /* QYContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92DBA31E54500800B40FCE /* QYContactViewController.m */; };
-		4C92DBA71E54504D00B40FCE /* QYStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92DBA61E54504D00B40FCE /* QYStatusViewController.m */; };
 		4C92DBAA1E54525500B40FCE /* QYLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92DBA91E54525500B40FCE /* QYLeftMenuViewController.m */; };
-		4C92DBAD1E545DBC00B40FCE /* QYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92DBAC1E545DBC00B40FCE /* QYTabBarController.m */; };
 		4CD3F1CA1CE4798E00BA53BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3F1C91CE4798E00BA53BF /* main.m */; };
 		4CD3F1CD1CE4798E00BA53BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3F1CC1CE4798E00BA53BF /* AppDelegate.m */; };
 		4CD3F1D01CE4798E00BA53BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3F1CF1CE4798E00BA53BF /* ViewController.m */; };
@@ -20,19 +16,18 @@
 		4CD3F1D81CE4798E00BA53BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD3F1D61CE4798E00BA53BF /* LaunchScreen.storyboard */; };
 		4CD3F1E21CE479FE00BA53BF /* QYMenuViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3F1E11CE479FE00BA53BF /* QYMenuViewControllerManager.m */; };
 		4CF81B901CE5886E007704C1 /* QYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF81B8F1CE5886E007704C1 /* QYNavigationController.m */; };
+		4CFA91ED1E6010470084C34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA91EC1E6010470084C34E /* main.m */; };
+		4CFA91F01E6010470084C34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA91EF1E6010470084C34E /* AppDelegate.m */; };
+		4CFA91F31E6010480084C34E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA91F21E6010480084C34E /* ViewController.m */; };
+		4CFA91F61E6010480084C34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFA91F41E6010480084C34E /* Main.storyboard */; };
+		4CFA91F81E6010480084C34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFA91F71E6010480084C34E /* Assets.xcassets */; };
+		4CFA91FB1E6010480084C34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFA91F91E6010480084C34E /* LaunchScreen.storyboard */; };
+		4CFA92051E6038C50084C34E /* QYDemo1NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA92041E6038C50084C34E /* QYDemo1NavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C92DB9F1E544FBF00B40FCE /* QYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMessageViewController.h; sourceTree = "<group>"; };
-		4C92DBA01E544FBF00B40FCE /* QYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMessageViewController.m; sourceTree = "<group>"; };
-		4C92DBA21E54500800B40FCE /* QYContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYContactViewController.h; sourceTree = "<group>"; };
-		4C92DBA31E54500800B40FCE /* QYContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYContactViewController.m; sourceTree = "<group>"; };
-		4C92DBA51E54504D00B40FCE /* QYStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStatusViewController.h; sourceTree = "<group>"; };
-		4C92DBA61E54504D00B40FCE /* QYStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStatusViewController.m; sourceTree = "<group>"; };
 		4C92DBA81E54525500B40FCE /* QYLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLeftMenuViewController.h; sourceTree = "<group>"; };
 		4C92DBA91E54525500B40FCE /* QYLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLeftMenuViewController.m; sourceTree = "<group>"; };
-		4C92DBAB1E545DBC00B40FCE /* QYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTabBarController.h; sourceTree = "<group>"; };
-		4C92DBAC1E545DBC00B40FCE /* QYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTabBarController.m; sourceTree = "<group>"; };
 		4CD3F1C51CE4798E00BA53BF /* QYSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3F1C91CE4798E00BA53BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CD3F1CB1CE4798E00BA53BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,10 +42,29 @@
 		4CD3F1E11CE479FE00BA53BF /* QYMenuViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMenuViewControllerManager.m; sourceTree = "<group>"; };
 		4CF81B8E1CE5886E007704C1 /* QYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYNavigationController.h; sourceTree = "<group>"; };
 		4CF81B8F1CE5886E007704C1 /* QYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYNavigationController.m; sourceTree = "<group>"; };
+		4CFA91E91E6010470084C34E /* Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFA91EC1E6010470084C34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CFA91EE1E6010470084C34E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CFA91EF1E6010470084C34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CFA91F11E6010470084C34E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CFA91F21E6010480084C34E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CFA91F51E6010480084C34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CFA91F71E6010480084C34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CFA91FA1E6010480084C34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CFA91FC1E6010480084C34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CFA92031E6038C50084C34E /* QYDemo1NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDemo1NavigationController.h; sourceTree = "<group>"; };
+		4CFA92041E6038C50084C34E /* QYDemo1NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDemo1NavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4CD3F1C21CE4798E00BA53BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFA91E61E6010470084C34E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD3F1C71CE4798E00BA53BF /* QYSideMenu */,
+				4CFA91EA1E6010470084C34E /* Demo2 */,
 				4CD3F1C61CE4798E00BA53BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD3F1C51CE4798E00BA53BF /* QYSideMenu.app */,
+				4CFA91E91E6010470084C34E /* Demo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,16 +100,10 @@
 				4CD3F1CC1CE4798E00BA53BF /* AppDelegate.m */,
 				4CD3F1CE1CE4798E00BA53BF /* ViewController.h */,
 				4CD3F1CF1CE4798E00BA53BF /* ViewController.m */,
-				4C92DB9F1E544FBF00B40FCE /* QYMessageViewController.h */,
-				4C92DBA01E544FBF00B40FCE /* QYMessageViewController.m */,
-				4C92DBA21E54500800B40FCE /* QYContactViewController.h */,
-				4C92DBA31E54500800B40FCE /* QYContactViewController.m */,
-				4C92DBA51E54504D00B40FCE /* QYStatusViewController.h */,
-				4C92DBA61E54504D00B40FCE /* QYStatusViewController.m */,
+				4CFA92031E6038C50084C34E /* QYDemo1NavigationController.h */,
+				4CFA92041E6038C50084C34E /* QYDemo1NavigationController.m */,
 				4C92DBA81E54525500B40FCE /* QYLeftMenuViewController.h */,
 				4C92DBA91E54525500B40FCE /* QYLeftMenuViewController.m */,
-				4C92DBAB1E545DBC00B40FCE /* QYTabBarController.h */,
-				4C92DBAC1E545DBC00B40FCE /* QYTabBarController.m */,
 				4CD3F1D11CE4798E00BA53BF /* Main.storyboard */,
 				4CD3F1D41CE4798E00BA53BF /* Assets.xcassets */,
 				4CD3F1D61CE4798E00BA53BF /* LaunchScreen.storyboard */,
@@ -122,6 +132,30 @@
 			path = QYSide;
 			sourceTree = "<group>";
 		};
+		4CFA91EA1E6010470084C34E /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA91EE1E6010470084C34E /* AppDelegate.h */,
+				4CFA91EF1E6010470084C34E /* AppDelegate.m */,
+				4CFA91F11E6010470084C34E /* ViewController.h */,
+				4CFA91F21E6010480084C34E /* ViewController.m */,
+				4CFA91F41E6010480084C34E /* Main.storyboard */,
+				4CFA91F71E6010480084C34E /* Assets.xcassets */,
+				4CFA91F91E6010480084C34E /* LaunchScreen.storyboard */,
+				4CFA91FC1E6010480084C34E /* Info.plist */,
+				4CFA91EB1E6010470084C34E /* Supporting Files */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		4CFA91EB1E6010470084C34E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA91EC1E6010470084C34E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +176,23 @@
 			productReference = 4CD3F1C51CE4798E00BA53BF /* QYSideMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4CFA91E81E6010470084C34E /* Demo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFA91FD1E6010480084C34E /* Build configuration list for PBXNativeTarget "Demo2" */;
+			buildPhases = (
+				4CFA91E51E6010470084C34E /* Sources */,
+				4CFA91E61E6010470084C34E /* Frameworks */,
+				4CFA91E71E6010470084C34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo2;
+			productName = Demo2;
+			productReference = 4CFA91E91E6010470084C34E /* Demo2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +205,10 @@
 					4CD3F1C41CE4798E00BA53BF = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 32D6F84KA9;
+					};
+					4CFA91E81E6010470084C34E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -171,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				4CD3F1C41CE4798E00BA53BF /* QYSideMenu */,
+				4CFA91E81E6010470084C34E /* Demo2 */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +242,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CFA91E71E6010470084C34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFA91FB1E6010480084C34E /* LaunchScreen.storyboard in Resources */,
+				4CFA91F81E6010480084C34E /* Assets.xcassets in Resources */,
+				4CFA91F61E6010480084C34E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -193,16 +259,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C92DBA71E54504D00B40FCE /* QYStatusViewController.m in Sources */,
-				4C92DBA11E544FBF00B40FCE /* QYMessageViewController.m in Sources */,
 				4C92DBAA1E54525500B40FCE /* QYLeftMenuViewController.m in Sources */,
 				4CD3F1D01CE4798E00BA53BF /* ViewController.m in Sources */,
 				4CD3F1E21CE479FE00BA53BF /* QYMenuViewControllerManager.m in Sources */,
-				4C92DBAD1E545DBC00B40FCE /* QYTabBarController.m in Sources */,
+				4CFA92051E6038C50084C34E /* QYDemo1NavigationController.m in Sources */,
 				4CD3F1CD1CE4798E00BA53BF /* AppDelegate.m in Sources */,
-				4C92DBA41E54500800B40FCE /* QYContactViewController.m in Sources */,
 				4CD3F1CA1CE4798E00BA53BF /* main.m in Sources */,
 				4CF81B901CE5886E007704C1 /* QYNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFA91E51E6010470084C34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFA91F31E6010480084C34E /* ViewController.m in Sources */,
+				4CFA91F01E6010470084C34E /* AppDelegate.m in Sources */,
+				4CFA91ED1E6010470084C34E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +294,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4CD3F1D71CE4798E00BA53BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CFA91F41E6010480084C34E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CFA91F51E6010480084C34E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CFA91F91E6010480084C34E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CFA91FA1E6010480084C34E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -342,6 +431,36 @@
 			};
 			name = Release;
 		};
+		4CFA91FE1E6010480084C34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yipinapp.Demo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CFA91FF1E6010480084C34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yipinapp.Demo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +481,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4CFA91FD1E6010480084C34E /* Build configuration list for PBXNativeTarget "Demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA91FE1E6010480084C34E /* Debug */,
+				4CFA91FF1E6010480084C34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
